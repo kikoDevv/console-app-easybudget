@@ -1,50 +1,23 @@
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("                                   :");
-        System.out.println("                                   :");
-        System.out.println("                                   :");
-        System.out.println("                                   :");
-        System.out.println("                                   :");
-        System.out.println("                                   :");
-        System.out.println("                                   :");
-        System.out.println("                                   :");
-        System.out.println("                                   :");
+    //-----------functions-----------//
+    public static void uiHome() {
+        for (int i = 0; i < 9; i++) {
+            System.out.println("                                   :");
+        }
         System.out.println("I-----------------------[ Welcome to EasyBudget ]---------------------I");
-        System.out.println("|                                                                     |");
-        System.out.println("|                                                                     |");
-        System.out.println("|                                                                     |");
-        System.out.println("|                                                                     |");
-        System.out.println("|                                                                     |");
-        System.out.println("|                                                                     |");
-        System.out.println("|                                                                     |");
-        System.out.println("|                                                                     |");
-        System.out.println("|                                                                     |");
-        System.out.println("|                                                                     |");
-        System.out.println("|                                                                     |");
-        System.out.println("|                                                                     |");
-        System.out.println("|                                                                     |");
-        System.out.println("|                                                                     |");
-        System.out.println("|                                                                     |");
-        System.out.println("|                                                                     |");
-        System.out.println("|                                                                     |");
-        System.out.println("|                                                                     |");
-        System.out.println("|                                                                     |");
-        System.out.println("|                                                                     |");
-        System.out.println("|                                                                     |");
+        for (int i = 0; i < 21; i++) {
+            System.out.println("|                                                                     |");
+        }
         System.out.println("I---------------------------------------------------------------------I");
-        System.out.println("                                   :");
-        System.out.println("                                   :");
-        System.out.println("                                   :");
-        System.out.println("                                   :");
-        System.out.println("                                   :");
-        System.out.println("                                   :");
-        System.out.println("                                   :");
-        System.out.println("                                   :");
-        System.out.println("                                   :");
-        System.out.println("                                   :");
+        for (int i = 0; i < 10; i++) {
+            System.out.println("                                   :");
+        }
+    }
 
 
+    public static void main(String[] args) {
+        uiHome();
     }
 }
